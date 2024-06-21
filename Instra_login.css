@@ -1,0 +1,172 @@
+
+body{
+    display: flex;
+    min-height: 710px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+
+.container{
+    width: 360px;
+    height: 450px;
+    min-height: 450px;
+    border: 1px solid #DBDBDB;
+    
+}
+
+.title img{
+    width: 200px;
+    height: 81px;
+    font-style: italic;
+    margin-left: 85px;
+    color: #262626;
+    padding-top: 25px;
+
+}
+
+.area{
+
+}
+
+input{
+    width: 30vmin;
+    height: 30px;
+    position: absolute;
+    padding: 0 30px;
+    background: transparent;
+    margin-left: 44px;
+    background-color: #FAFAFA;
+    
+}
+
+.lebelline{
+    position: absolute;
+    font-size: 0.87em;
+    margin-left: 60px;
+    padding: 0 5px;
+    padding-top: 8px;
+    color: #737373;
+
+}
+
+
+input:focus + .lebelline,
+input:valid + .lebelline{
+    transform: translate(-10px,-23px);
+}
+
+.button{
+    background-color:#4CB5F9;
+    width: 38.9vmin;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.hr{
+    width: 300%;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.or{
+   margin-top: 10px;
+   margin-left: 40px;
+   font-size: 15px;
+}
+
+.container-hr-or{
+    display: flex;
+    padding-top: 50px;
+    margin-right: 45px;
+}
+
+.image{
+    width: 460px;
+    height: 690px;
+    margin-top: -40px;
+}
+
+ .image1{
+    width: 20px;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+ a{
+    display: flex;
+    margin-left: 115px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: #0866FF;
+    font-weight: bold;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+.pass{
+    font-size: small;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #737373;
+
+}
+
+
+.container1  {
+    width: 80.5%;
+    min-height: 50px;
+    border: 1px solid #DBDBDB;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+.container1  a{
+    margin-top: -33.4px;
+    margin-left: 153px;
+    font-weight: bold;
+    color: #4CB5F9;
+}
+
+.app p{
+    text-align: center;
+}
+
+
+.get-it-on-from img{
+    width: 40%;
+    margin-left: 30px;
+}
+
+.get-it-from img{
+    width: 35%;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: -47px;
+}
+
+.foot-contain .info{
+    font-size: small;
+    color: #737373;
+}
+
+.foot-contain >.info {
+    display: flex;
+    margin-left: -460px;
+    
+}
+
+.copyright p{
+    color: #737373;
+    font-size: small;
+    margin-right: -50px;
+    margin-left: -160px;
+}
+
